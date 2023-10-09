@@ -1,8 +1,10 @@
 ﻿// mandel
 
-public class Person
-{
-    private Person person = new Person();
-    
-    
-}
+using P1People;
+
+Person person = new Person();
+
+
+Console.WriteLine(person);
+
+
