@@ -2,12 +2,12 @@
 
 using P1People;
 
-Person person = new Person();
+Person[] people = new Person[3];
 
+for (var i = 0; i < people.Length; i++)
+{
+    Console.WriteLine(people[i]);
+}
 
-
-
-
-Console.WriteLine(person);
 
 
