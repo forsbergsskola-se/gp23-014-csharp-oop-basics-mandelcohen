@@ -10,8 +10,8 @@ playerA.Wood = 53;
 playerA.Level = 12;
 playerA.Experience = 123;
 
-playerA.VIP = true;
-playerA.PVP = false;
+playerA.hasVIPSubscription = true;
+playerA.isPVPenabled = false;
 
 playerA.Name = "Marc";
 playerA.Email = "marc@zacu.de";
@@ -24,8 +24,8 @@ Gold: {playerA.Gold}
 Stone: {playerA.Stone}
 Wood: {playerA.Wood}");
 
-string hasVIP = playerA.VIP ? "Active" : "Inactive";
+string hasVIP = playerA.hasVIPSubscription ? "Active" : "Inactive";
 Console.WriteLine($"VIP status: {hasVIP}");
 
-string hasPVP = playerA.PVP ? "Enabled" : "Disabled";
+string hasPVP = playerA.isPVPenabled ? "Enabled" : "Disabled";
 Console.WriteLine($"PVP status: {hasPVP}");

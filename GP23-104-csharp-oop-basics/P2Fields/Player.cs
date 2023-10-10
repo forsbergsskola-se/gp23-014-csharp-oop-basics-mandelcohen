@@ -12,8 +12,8 @@ public class Player
     public int Experience;
     
     // active or inactive extras
-    public bool VIP;
-    public bool PVP;
+    public bool hasVIPSubscription;
+    public bool isPVPenabled;
     
     // user can configure
     public string Name;
