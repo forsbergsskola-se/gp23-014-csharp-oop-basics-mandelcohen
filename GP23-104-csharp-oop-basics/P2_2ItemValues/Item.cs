@@ -1,5 +1,5 @@
 
 public class Item
 {
-    public int goldValue;
+    public int GoldValue;
 }
