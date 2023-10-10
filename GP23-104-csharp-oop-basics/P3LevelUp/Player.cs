@@ -13,7 +13,7 @@ public class Player
 
         int maxExpToLevel = 100;
 
-        while (expValue > maxExpToLevel)
+        while (expValue >= maxExpToLevel)
         {
             levelValue++;
             expValue -= maxExpToLevel;
