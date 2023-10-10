@@ -5,17 +5,21 @@ public class Player
     public int Level;
     public int Exp;
     
-    public void GrantExperience(int level, int exp)
+    public void GrantExperience(int levelValue, int expValue)
     {
+        Console.WriteLine($"Level: {levelValue} and Experience {expValue}");
         int userInput = int.Parse(Console.ReadLine());
-        exp += userInput;
-        do
+        expValue += userInput;
+
+        int maxExpToLevel = 100;
+
+        while (expValue > maxExpToLevel)
         {
-            if (exp > 100)
-            {
-                level++;
-                exp = 0;
-            }
-        } while (exp > 0);
+            levelValue++;
+            expValue -= maxExpToLevel;
+        } 
+
+        Level = levelValue;
+        Exp = expValue;
     }
 }
