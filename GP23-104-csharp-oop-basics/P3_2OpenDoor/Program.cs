@@ -1,3 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using P3_2OpenDoor;
 
-Console.WriteLine("Hello, World!");
+House blueHouse = new House();
+House redHouse = new House();
+
+void PrintDoors()
+{
+    string blueHouseDoor = blueHouse.IsDoorOpen ? "Open" : "Closed";
+    string redHouseDoor = redHouse.IsDoorOpen ? "Open" : "Closed";
+    
+    Console.WriteLine($"{blueHouseDoor} and {redHouseDoor}");
+}
+
+PrintDoors();
+blueHouse.OpenDoor();
+PrintDoors();
+redHouse.OpenDoor();
+PrintDoors();
+blueHouse.CloseDoor();
+PrintDoors();
