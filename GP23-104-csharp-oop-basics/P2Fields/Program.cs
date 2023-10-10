@@ -16,16 +16,16 @@ playerA.PVP = false;
 playerA.Name = "Marc";
 playerA.Email = "marc@zacu.de";
 
-Console.WriteLine(@$"Player name: {playerA.Name}
-Player Email: {playerA.Email}
-Player resources are:
+Console.WriteLine(@$"Name: {playerA.Name}
+Email: {playerA.Email}
+Level: {playerA.Level}
+Experience: {playerA.Experience}
 Gold: {playerA.Gold}
 Stone: {playerA.Stone}
-Wood: {playerA.Wood}
-");
+Wood: {playerA.Wood}");
 
-string hasVIP = playerA.VIP ? "active" : "inactive";
+string hasVIP = playerA.VIP ? "Active" : "Inactive";
 Console.WriteLine($"VIP status: {hasVIP}");
 
-string hasPVP = playerA.PVP ? "enabled" : "disabled";
+string hasPVP = playerA.PVP ? "Enabled" : "Disabled";
 Console.WriteLine($"PVP status: {hasPVP}");
