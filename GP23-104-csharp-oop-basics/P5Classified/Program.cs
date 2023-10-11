@@ -1,3 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+/*
+    Bread, Banana, Apple, Pear
+   Sword, Axe, Pencil, Shield, Spear
+   Tree, Gorilla, Chimpanzee, Sparrow, Pigeon, Hawk
+   
+   */
