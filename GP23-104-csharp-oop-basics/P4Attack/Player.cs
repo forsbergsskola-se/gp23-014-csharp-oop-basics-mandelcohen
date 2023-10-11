@@ -1,4 +1,3 @@
-namespace P4TheHeap;
 
 public class Player
 {
