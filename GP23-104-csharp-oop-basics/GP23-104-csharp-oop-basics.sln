@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_2AllTheSame", "P4_2AllTheSame\P4_2AllTheSame.csproj", "{2A67EC9A-8DB5-47AF-880C-DF2DB7FC513B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_3PassingReferences", "P4_3PassingReferences\P4_3PassingReferences.csproj", "{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{2A67EC9A-8DB5-47AF-880C-DF2DB7FC513B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A67EC9A-8DB5-47AF-880C-DF2DB7FC513B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A67EC9A-8DB5-47AF-880C-DF2DB7FC513B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
