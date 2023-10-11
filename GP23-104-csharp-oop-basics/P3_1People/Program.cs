@@ -16,5 +16,5 @@ for (var i = 0; i < persons.Length; i++)
 
 for (var i = 0; i < persons.Length; i++)
 {
-    persons[i].Greeting(persons[i].name);
+    persons[i].Greeting();
 }
