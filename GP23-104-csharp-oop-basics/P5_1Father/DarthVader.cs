@@ -4,3 +4,8 @@ public class DarthVader
 {
     
 }
+
+public class Luke : DarthVader
+{
+    
+}
