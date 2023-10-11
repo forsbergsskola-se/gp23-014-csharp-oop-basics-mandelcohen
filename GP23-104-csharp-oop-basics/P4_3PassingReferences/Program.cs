@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using P4_3PassingReferences;
 
-Console.WriteLine("Hello, World!");
+void Sell(House arg)
+{
+    arg.owner = "Alex";
+}
+
+House house = new House();
+
+house.PrintOwner();
+Sell(house);
+house.PrintOwner();

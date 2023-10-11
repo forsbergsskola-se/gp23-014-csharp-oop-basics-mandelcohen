@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_2AllTheSame", "P4_2AllTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_3PassingReferences", "P4_3PassingReferences\P4_3PassingReferences.csproj", "{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_2Harvest", "P5_2Harvest\P5_2Harvest.csproj", "{EEB7859B-C110-4386-82F6-ABB396B79371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE6B23A-5B97-426B-AF14-B3074E47A2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB7859B-C110-4386-82F6-ABB396B79371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB7859B-C110-4386-82F6-ABB396B79371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB7859B-C110-4386-82F6-ABB396B79371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB7859B-C110-4386-82F6-ABB396B79371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
