@@ -1,25 +1,23 @@
 
-namespace P6GoodKnight;
-
 public class Knight
 {
-    public Shield Shield;
-    public Sword Sword;
+    public Shield shield;
+    public Sword sword;
 
     public void GetHit(Sword sword)
     {
-        if (sword == null && Shield != null)
+        if (sword == null && shield != null)
         {
             Console.WriteLine("Knights Shield fends off the attack.");
             return ;
         }
-        if (sword != null && Shield != null)
+        if (sword != null && shield != null)
         {
             Console.WriteLine("Knights Shield was pierced by the sword.");
-            Shield = null;
+            shield = null;
             return;
         }
-        if (Shield == null)
+        if (shield == null)
         {
             Console.WriteLine("The Knight has no Shield and is wounded.");
         }
@@ -27,11 +25,11 @@ public class Knight
 
     public void Attack(Knight defender)
     {
-        if (Sword == null)
+        if (sword == null)
         {
             Console.WriteLine("Knight attacks with Bare Hands.");
             return;
         }
-        Console.WriteLine("Knight attacks Knight with Sword.");
+        Console.WriteLine("Knight attacks Knight with a Sword.");
     }
 }
