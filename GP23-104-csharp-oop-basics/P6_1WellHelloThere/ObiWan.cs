@@ -1,5 +1,5 @@
 
 public class ObiWan
 {
-    public string Weapon;
+    public Lightsaber Weapon;
 }
