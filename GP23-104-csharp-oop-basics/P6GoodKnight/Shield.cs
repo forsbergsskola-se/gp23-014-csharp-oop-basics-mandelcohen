@@ -1,6 +1,6 @@
 namespace P6GoodKnight;
 
-public class Sheild
+public class Shield
 {
     
 }
