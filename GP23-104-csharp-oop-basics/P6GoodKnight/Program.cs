@@ -10,9 +10,11 @@ attacker.Attack(defender);
 defender.GetHit(attacker.Sword);
 
 attacker.Sword = new Sword();
+Console.WriteLine("Equipping sword...");
 
 attacker.Attack(defender);
 defender.GetHit(attacker.Sword);
 
 attacker.Attack(defender);
+defender.GetHit(attacker.Sword);
 
