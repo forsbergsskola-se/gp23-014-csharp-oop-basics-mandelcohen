@@ -1,44 +1,53 @@
 ﻿
+using P5Classified;
+
 Console.WriteLine("Hello");
 
+// Bread and Fruit inherits from Food
 public class Bread : Food
 {
     
 }
-public class Banana : Food
+public class Banana : Fruit
 {
     
 }
-public class Apple : Food
+public class Apple : Fruit
 {
     
 }
-public class Pear : Food
-{
-    
-}
-
-public class Sword : Weapons
-{
-    
-}
-public class Axe : Weapons
-{
-    
-}
-public class Pencil : Weapons
-{
-    
-}
-public class Shield : Weapons
-{
-    
-}
-public class Spear : Weapons
+public class Pear : Fruit
 {
     
 }
 
+// Weapon inherits from Item
+public class Sword : Weapon
+{
+    
+}
+public class Axe : Weapon
+{
+    
+}
+public class Pencil : Item
+{
+    
+}
+public class JohnWickPencil : Weapon
+{
+    
+}
+public class Shield : Weapon
+{
+    
+}
+public class Spear : Weapon
+{
+    
+}
+
+// Parent 
 public class Tree : Cbl
 {
     

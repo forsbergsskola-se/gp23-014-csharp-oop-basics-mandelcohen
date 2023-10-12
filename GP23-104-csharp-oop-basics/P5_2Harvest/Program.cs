@@ -11,9 +11,9 @@ Wheat wheat = new Wheat();
 plant.CanGrow();
 grain.CanGrow();
 wheat.CanGrow();
-//plant.canBeHarvesed
+//plant.canBeHarvesed();
 grain.CanBeHarvested();
 wheat.CanBeHarvested();
-//plant.CanBeProcessedToBread
-//grain.CanBeProcessedToBread    
+//plant.CanBeProcessedToBread();
+//grain.CanBeProcessedToBread();    
 wheat.CanBeProcessedToBread();

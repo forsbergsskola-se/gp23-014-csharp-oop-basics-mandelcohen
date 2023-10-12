@@ -1,5 +1,7 @@
 
-public class Food
+using P5Classified;
+
+public class Food : Item
 {
-    // Bread, Banana, Apple, Pear
+    // 
 }
