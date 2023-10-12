@@ -1,6 +1,7 @@
 ﻿
-ObiWan obiWan = new ObiWan();
-Console.WriteLine(obiWan);
+
+Lightsaber lightsaber = new Lightsaber();
+Console.WriteLine(lightsaber);
 
 
 
