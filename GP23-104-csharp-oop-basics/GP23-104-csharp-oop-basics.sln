@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Classified", "P5Classifie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6_1WellHelloThere", "P6_1WellHelloThere\P6_1WellHelloThere.csproj", "{337F5621-B4AC-458D-BBC5-3D039089CA5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6GoodKnight", "P6GoodKnight\P6GoodKnight.csproj", "{7079FF8F-636E-4916-9E1D-90A34816854D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{337F5621-B4AC-458D-BBC5-3D039089CA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337F5621-B4AC-458D-BBC5-3D039089CA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337F5621-B4AC-458D-BBC5-3D039089CA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7079FF8F-636E-4916-9E1D-90A34816854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7079FF8F-636E-4916-9E1D-90A34816854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7079FF8F-636E-4916-9E1D-90A34816854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7079FF8F-636E-4916-9E1D-90A34816854D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

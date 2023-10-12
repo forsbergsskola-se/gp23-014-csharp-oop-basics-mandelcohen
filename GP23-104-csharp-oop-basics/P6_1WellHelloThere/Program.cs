@@ -1,12 +1,12 @@
 ﻿
 
-Lightsaber lightsaber = new Lightsaber();
+
 ObiWan obiWan = new ObiWan();
 
-Console.WriteLine(lightsaber);
+Console.WriteLine(obiWan);
 Console.WriteLine(obiWan.Weapon);
 
-obiWan.Weapon = lightsaber;
+obiWan.Weapon = new Lightsaber();
 
 Console.WriteLine(obiWan.Weapon);
 Console.WriteLine("General Kenobi!");
